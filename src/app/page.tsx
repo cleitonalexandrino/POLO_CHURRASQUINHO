@@ -169,10 +169,10 @@ export default function Catalog() {
           <h1 className="text-[10vw] font-black leading-none text-white tracking-tighter mix-blend-overlay uppercase">FOGO</h1>
         </div>
         
-        <div className="container mx-auto px-4 py-4 md:py-8 relative z-10 flex flex-col xl:flex-row items-start xl:items-end justify-between gap-6">
+        <div className="container mx-auto px-4 py-4 md:py-6 relative z-10 flex flex-col md:flex-row items-start md:items-end justify-between gap-4 md:gap-6">
           
           {/* Brand/Logo */}
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-8 w-full">
+          <div className="flex flex-row items-center gap-4 md:gap-6 shrink-0">
             <div className="relative w-20 h-20 md:w-28 md:h-28 shrink-0 border-4 border-zinc-800 bg-black overflow-hidden group shadow-[8px_8px_0px_#000]">
                <Image 
                 src="/images/LOGO.jpg" 
@@ -195,7 +195,7 @@ export default function Catalog() {
           </div>
 
           {/* Horários / Infos extras */}
-          <div className="shrink-0 w-full xl:w-auto flex flex-col gap-3">
+          <div className="shrink-0 w-full md:w-auto flex flex-col gap-3">
             {/* Info badges acima dos horários */}
             <div className="flex flex-wrap items-center gap-3 text-xs font-mono">
               <span className="flex items-center gap-2 border-2 border-zinc-800 px-3 py-2 uppercase font-bold text-white bg-zinc-900">
